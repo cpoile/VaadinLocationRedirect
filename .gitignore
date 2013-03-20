@@ -1,0 +1,37 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+.idea/
+
+out/
+
+classes/artifacts/
+
+*.log
+
+# maven
+admin/target/
+webapp/target/
+models/target/
+settings/target/
+signup/target/
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Vaadin widgetset compiler output.
+gwt-unitCache/
+widgetsets/
+.sass-cache/
+
+
+
